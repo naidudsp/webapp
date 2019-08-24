@@ -58,14 +58,14 @@
 	</build>
 <distributionManagement>
     <repository>
-        <id>deployment</id>
-        <name>Internal Release</name>
-        <url>http://13.127.14.182:8081/repository/maven-releases/</url>
+        <id>repo</id>
+        <name>repo</name>
+        <url>http://13.233.114.12:8081/nexus/content/repositories/repo/</url>
     </repository>
     <snapshotRepository>
-        <id>deployment</id>
-        <name>Internal Release</name>
-        <url>http://13.127.14.182:8081/repository/maven-snapshots/</url>
+        <id>repoR</id>
+        <name>repoR</name>
+        <url>http://13.233.114.12:8081/nexus/content/repositories/repoR/</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
